@@ -7,9 +7,9 @@
     $_SESSION["username"] = "Unknown";
     $_SESSION["user_first_name"] = "";
     $_SESSION["user_surname"] = "Unknown";
-    $_SESSION["member_exp"] = "Unknown";
-    $_SESSION["search_count"] = "0";
-    $_SESSION["search_date"] = "";
+    $_SESSION["password_exp"] = "Unknown";
+    $_SESSION["login_count"] = "0";
+    $_SESSION["login_date"] = "";
     $_SESSION["user_role"] = "Visitor";
     $_SESSION["selected_people_id"] = 0;
   	 $_SESSION["search_name_start"] = "";
@@ -45,21 +45,21 @@
                 $_SESSION["username"] = $row["username"];
                 $_SESSION["user_first_name"] = $row["first_name"];
                 $_SESSION["user_surname"] = $row["surname"];
-                $_SESSION["member_exp"] = $row["member_exp"];
-                $_SESSION["search_count"] = $row["search_count"];
-                $_SESSION["search_date"] = $row["search_date"];
+                $_SESSION["password_exp"] = $row["password_exp"];
+                $_SESSION["login_count"] = $row["login_count"];
+                $_SESSION["login_date"] = $row["login_date"];
                 $_SESSION["user_role"] = $row["user_role"];
 					 // log it
 					 $success = TRUE;
 					 login_log($user_name_given, $password_given, $success);
 					 $today = date("Y-m-d");
 					 //print_r($today);
-					 //print_r($_SESSION["search_date"]);
-					 if ($_SESSION["search_date"] != $today)
+					 //print_r($_SESSION["login_date"]);
+					 if ($_SESSION["login_date"] != $today)
 						{
-							$_SESSION["search_date"] = $today;
-							$_SESSION["search_count"] += 1;
-							$rows = query("update users set search_count = ?, search_date = ? where id = ?", $_SESSION["search_count"], $_SESSION["search_date"], $_SESSION["id"]);
+							$_SESSION["login_date"] = $today;
+							$_SESSION["login_count"] += 1;
+							$rows = query("update users set login_count = ?, login_date = ? where id = ?", $_SESSION["login_count"], $_SESSION["login_date"], $_SESSION["id"]);
 						}
                 // redirect to search
                 redirect("../ctl/search.php");

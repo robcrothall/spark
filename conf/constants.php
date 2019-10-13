@@ -7,19 +7,19 @@
      */
 
     // your website name
-    define("WEBSITE", "http://localhost/spark");
+    define("WEBSITE", "/spark/");
 
     // your database's name
-    define("DATABASE", "spark");
+    define("DATABASE", "gguyqorg_sp_admin");
 
     // your database's password
-    define("PASSWORD", "Ila195SP");
+    define("PASSWORD", 'W;)uAoEP9.jg');
 
     // your database's server
     define("SERVER", "localhost");
 
     // your database's username
-    define("USERNAME", "sprv");
+    define("USERNAME", "gguyqorg_sp_prox");
     
     // the number of search days to give to a new user
     define("INITIAL_DAYS", "5");
@@ -28,6 +28,6 @@
     define("CLIENT_NAME", "Settlers Park Association");
     
     // the system name
-    define("SYSTEM_NAME", "Settlers Park Intranet");
+    define("SYSTEM_NAME", "S-Park Intranet");
 
 ?>

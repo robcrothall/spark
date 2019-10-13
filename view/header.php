@@ -63,12 +63,12 @@
 	       </table>
 	       <table border="0" cellpadding="0" cellspacing="0" width="100%">
 	         <tr>
-		        <td align="left" width="50%">Search client: <?php echo $_SESSION["user_first_name"] . " " . $_SESSION["user_surname"] ?> </td>
+		        <td align="left" width="50%">User: <?php echo $_SESSION["user_first_name"] . " " . $_SESSION["user_surname"] ?> </td>
 		        <td align="right" width="50%">Timestamp: <?php echo date("Y-m-d H:i:s T"); ?></td>
 	         </tr>
 	         <tr>
-		        <td align="left" width="50%">Search number: <?php echo $_SESSION["search_count"] ?> </td>
-		        <td align="right" width="50%">Membership expiry: <?php echo $_SESSION["member_exp"]; ?> </td>
+		        <td align="left" width="50%">Login: <?php echo $_SESSION["login_count"] ?> </td>
+		        <td align="right" width="50%">Password expiry: <?php echo $_SESSION["password_exp"]; ?> </td>
 	         </tr>
 	       </table>
 	       <hr>

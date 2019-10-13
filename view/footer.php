@@ -8,7 +8,7 @@
     				?>
 				</p>
             <div id="bottom">
-                Copyright &#169; 2018 - 2019 - Kowie Museum, Port Alfred
+                Copyright &#169; 2018 - 2019 - Settlers Park Association, Port Alfred
             </div>
 
         </div>

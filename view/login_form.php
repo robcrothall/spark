@@ -11,20 +11,18 @@
         </div>
     </fieldset>
 </form>
-<h2>Purpose of this project</h2>
-<p>The Kowie Museum History project provides a service where details of people and events in the Eastern Cape of South Africa can be recorded and researched.</p>
+<h2>Purpose of this Intranet</h2>
+<p>The Settlers Park association Intranet permits sharing of information about the business of Settlers Park Retirement Village.
+It is intended to be used by staff members and Residents of Settlers Park.</p>
 <p>
-Although the initial motivation for this project was to record the information gathered by Morse Jones about the 1820 Settlers, it was decided that 
-the project should record details about any individuals, wherever they come from. 
-In general, the people mentioned will be of historical significance, although certain non-controversial information on living individuals may be captured 
-e.g. a record of mayors or other noteworthy individuals.
-</p>
-<p>
-If any information found on the site is thought to be inaccurate or inappropriate, please send details to <a href="mailto:curator@kowiemuseum.co.za?Subject=History%20Website" target="_top">the Curator of Kowie Museum</a> .
+If any information found on the site is thought to be inaccurate or inappropriate, please send details to 
+<a href="mailto:info@settlerspark.co.za?Subject=Intranet%20Website" target="_top">the General Manager</a>, Settlers Park Association.
 </p>
 <h2>The Rules...</h2>
 <ol>
-	<li>You are welcome to use these facilities as a paid-up member of the Kowie Museum.</li>
-	<li>We give seven days of free access to people who are not yet members.  Contact <a href="mailto:curator@kowiemuseum.co.za">the Curator</a> to join.</li>
-	<li>Members have five days of free searches per year.  After that, you will need to register with the Curator as a Researcher.  Facilities for Researchers are extensive.</li>
+	<li>You are welcome to use these facilities if you are a staff member or resident of Settlers Park Retirement Village.</li>
+	<li>When you register on this site you will have access to public information only.  
+	You need to contact the office using the link below indicating your cottage number or job function, 
+	after which you will be granted access to the information that you need.
+	Contact <a href="mailto:info@settlerspark.co.za">the GM</a> to have your role assigned.</li>
 </ol>

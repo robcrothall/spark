@@ -6,7 +6,7 @@
      * Helper functions.
      */
 
-    require_once($_SERVER['DOCUMENT_ROOT'] . $WEBSITE . "conf/constants.php");
+    require_once("../conf/constants.php");
 
     /**
      * Apologizes to user with message.
@@ -170,6 +170,7 @@
         if ($statement === false)
         {
             // trigger (big, orange) error
+            print_r($sql);
             trigger_error($handle->errorInfo()[2], E_USER_ERROR);
             exit;
         }

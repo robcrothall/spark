@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="../ctl/logout.php">Kowie Museum</a>
+  <a class="navbar-brand" href="../ctl/logout.php">Intranet logout</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -7,7 +7,7 @@
     <ul class="navbar-nav mr-auto">
 <!--      <li class="nav-item active">
       <li class="nav-item">
-        <a class="nav-link" href="../ctl/logout.php">Kowie Museum</a>
+        <a class="nav-link" href="../ctl/logout.php">Logout</a>
       </li>
 -->
       <li class="nav-item">
@@ -50,11 +50,11 @@
         echo '<a class="dropdown-item" href="../ctl/payments.php">Payments</a>';
         echo '<a class="dropdown-item" href="../ctl/roles.php">Roles</a>';
         echo '<a class="dropdown-item" href="../ctl/users.php">Users</a>';
-        if($_SESSION["user_role"] == "ADMIN") {
+        if($_SESSION["user_role"] == "ACCT") {
             echo '<div class="dropdown-divider"></div>';
-            echo '<a class="dropdown-item" href="../ctl/payments.php">Transfer History</a>';
-            echo '<a class="dropdown-item" href="../ctl/payments.php">Merge History</a>';
-            echo '<a class="dropdown-item" href="../ctl/history_date_fix.php">History date fix</a>';
+            echo '<a class="dropdown-item" href="../view/construction_form">Electricity billing</a>';
+            echo '<a class="dropdown-item" href="../view/construction_form">Phone billing</a>';
+            echo '<a class="dropdown-item" href="../view/construction_form">Restaurant billing</a>';
         }
         echo '</div>';
       	echo '</li>';

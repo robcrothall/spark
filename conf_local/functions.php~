@@ -6,7 +6,7 @@
      * Helper functions.
      */
 
-    require_once("../conf/constants.php");
+    require_once($_SERVER['DOCUMENT_ROOT'] . $WEBSITE . "conf/constants.php");
 
     /**
      * Apologizes to user with message.
@@ -170,7 +170,6 @@
         if ($statement === false)
         {
             // trigger (big, orange) error
-            print_r($sql);
             trigger_error($handle->errorInfo()[2], E_USER_ERROR);
             exit;
         }
@@ -341,14 +340,13 @@
             $cmd1 = $cmd1 . ", success";
             $cmd2 = $cmd2 . ", " . $success;
         }
-      //if (!empty($_SESSION["id"]))
-      //  {        
-      //      $cmd1 = $cmd1 . ", user_id";
-      //      $cmd2 = $cmd2 . ", " . $_SESSION["id"];
-      //  }
-        $cmd1 = $cmd1 . ", changed";
-        $cmd2 = $cmd2 . ", now()";
-        
+        if (!empty($_SESSION["id"]))
+        {        
+            $cmd1 = $cmd1 . ", user_id";
+            $cmd2 = $cmd2 . ", " . $_SESSION["id"];
+            $cmd1 = $cmd1 . ", changed";
+            $cmd2 = $cmd2 . ", now()";
+        }
         
         $cmd = $cmd1 . $cmd2 . $cmd3;
       //  $fullsql = showquery($sql, $parameters);

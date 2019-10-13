@@ -54,6 +54,7 @@
             echo '<div class="dropdown-divider"></div>';
             echo '<a class="dropdown-item" href="../ctl/payments.php">Transfer History</a>';
             echo '<a class="dropdown-item" href="../ctl/payments.php">Merge History</a>';
+            echo '<a class="dropdown-item" href="../ctl/history_date_fix.php">History date fix</a>';
         }
         echo '</div>';
       	echo '</li>';
