@@ -1,0 +1,84 @@
+<?php
+
+    // configuration
+    require("../conf/config.php");
+    
+    // if form was submitted
+    if ($_SERVER["REQUEST_METHOD"] == "POST")
+    {
+        // validate submission
+        if (empty($_POST["username"]))
+        {
+            apologize("You must provide your User Name.");
+        }
+        if (empty($_POST["password"]))
+        {
+            apologize("You must provide your password.");
+        }
+        if (empty($_POST["confirmation"]))
+        {
+            apologize("You must provide your confirmation password.");
+        }
+        if ($_POST["password"] !== $_POST["confirmation"])
+        {
+            apologize("Your password and confirmation password are not identical.");
+        }
+        if (empty($_POST["surname"]))
+        {
+            apologize("You must provide your Surname.");
+        }
+        if (empty($_POST["first_name"]))
+        {
+            apologize("You must provide your first name(s).");
+        }
+        if (empty($_POST["phone"])) 
+        {
+        		if (empty($_POST["mobile"]))
+        		{
+            	apologize("You must provide at least one phone number.");
+        		}
+        }
+        if (empty($_POST["email"]))
+        {
+            apologize("You must provide your email address. We will not abuse it.");
+        }
+
+        // query database for user
+        $rows = query("SELECT * FROM users WHERE username = ?", $_POST["username"]);
+
+        // if we found user, tell him he is already registered
+        if (count($rows) == 1)
+        {
+            apologize("Your username has already been registered - please choose another.");
+        }
+        // insert the new user into the users table
+		  $mydate = date("Y-m-d");
+        $rows = query("INSERT INTO users (username, hash, surname, first_name, phone, mobile, email, member_exp, search_count, search_date, user_role, user_id) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)", 
+            $_POST["username"], crypt($_POST["password"],$_POST["username"]), $_POST["surname"], $_POST["first_name"], 
+            $_POST["phone"], $_POST["mobile"], $_POST["email"], $mydate, 1, $mydate, "VISITOR", "1");
+        if ($rows === false)
+        {
+            apologize("Unable to register your user name - please contact support");
+        }
+        $rows = query("SELECT LAST_INSERT_ID() AS id");
+        $id = $rows[0]["id"];
+        $rows = query("SELECT * FROM users WHERE id = ?", $id);
+        $row = $rows[0];
+
+        // remember that user's now logged in by storing user's ID in session
+        $_SESSION["id"] = $id;
+        $_SESSION["username"] = $row["username"];
+        $_SESSION["first_name"] = $row["first_name"];
+        $_SESSION["surname"] = $row["surname"];
+        $_SESSION["member_exp"] = $row["member_exp"];
+        $_SESSION["search_count"] = $row["search_count"];
+        $_SESSION["user_role"] = $row["user_role"];
+
+        // redirect to the search page
+        redirect("search.php");
+    }
+    else
+    {
+      render("../view/register_form.php", ["title" => "Register"]);
+    } 
+?>

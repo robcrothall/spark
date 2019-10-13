@@ -1,0 +1,6 @@
+s/%title%/Ship/g
+s/%table%/ship/g
+s/%name%/ship/g
+s/%lookupxTitle%/Events and People/g
+s/%lookupxTable%/events_people/g
+s/%lookupxName%/event/g

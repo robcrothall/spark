@@ -1,0 +1,43 @@
+<h2 align="center">List of Voyages</h2>
+    <div class="container">
+        <p><a href="../ctl/voyage_create.php" class="btn btn-success">Create a new voyage</a></p>
+        <div class="row">
+            <table class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th>Ship name</th>
+                        <th>Date</th>
+                        <th>Origin port</th>
+                        <th>Destination port</th>
+                        <th>Notes</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php 
+         				$rows = query("SELECT d.ship_name, a.voyage_date, b.place origin, c.place dest, a.notes from voyage a, places b, places c, ship d where d.id = a.ship_id and a.origin = b.id and a.destination = c.id order by ship_name, voyage_date"); 
+         				if (count($rows) > 0)
+            			{
+            				foreach ($rows as $row)
+              				{
+              					echo '<tr>';
+              					echo '<td>' . $row['ship_name'] . '</td>';
+              					echo '<td>' . $row['voyage_date'] . '</td>';
+              					echo '<td>' . $row['origin'] . '</td>';
+              					echo '<td>' . $row['dest'] . '</td>';
+              					echo '<td>' . $row['notes'] . '</td>';
+                           echo '<td>';
+                           echo '<a class="btn btn-success" href="../ctl/voyage_read.php?id=' . $row['id'] . '">Read</a>';
+									if ($_SESSION["user_role"] == "STAFF" | $_SESSION["user_role"] == "ADMIN" ) {
+                           	echo '<a class="btn btn-success" href="../ctl/voyage_update.php?id=' . $row['id'] . '">Update</a>';
+                           	echo '<a class="btn btn-danger" href="../ctl/voyage_delete.php?id=' . $row['id'] . '">Delete</a>';
+                           }
+                           echo '</td>';
+              					echo '</tr>';
+              				}
+            			}
+                    ?>
+                </tbody>
+            </table>
+        </div>
+    </div>

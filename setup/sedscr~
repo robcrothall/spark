@@ -1,0 +1,3 @@
+s/Regions/%title%/g
+s/regions/%table%/g
+s/region/%name%/g

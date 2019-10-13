@@ -1,0 +1,6 @@
+s/Region/%title%/g
+s/regions/%table%/g
+s/region/%name%/g
+s/Country/%lookupTitle%/g
+s/countries/%lookupTable%/g
+s/country/%lookupName%/g

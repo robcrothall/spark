@@ -1,0 +1,45 @@
+<?php
+    require("../conf/config.php"); 
+	 $_SESSION["module"] = $_SERVER["PHP_SELF"];
+    if ($_SERVER["REQUEST_METHOD"] == "POST")
+    {
+            $rec_id = $_SESSION["rec_id"];
+            $party_name=trim(substr(htmlspecialchars(strip_tags($_POST['name']), ENT_COMPAT),0,50));
+            $party_leader_id = substr(htmlspecialchars(strip_tags($_POST['party_leader_id']), ENT_COMPAT),0,20);
+            $notes=trim(substr(htmlspecialchars(strip_tags($_POST['notes']), ENT_COMPAT),0,65534));
+            print_r($notes);
+            $user_id=htmlspecialchars(strip_tags($_SESSION['id']));
+            // Do some validation
+            $errMsg = "";
+            if (empty($party_name)) {$errMsg .= "The party_name name cannot be empty. ";}
+            if (!empty($errMsg)) {apologize($errMsg);}
+            $rows = query("update party set party_name=?, party_leader=?, notes=?, user_id=?, changed=CURRENT_TIMESTAMP() where id=?",
+                    $party_name, $party_leader_id, $notes, $user_id, $rec_id);
+				If ($rows === false)
+				{
+					print_r($rec_id);
+					print_r($party_name);
+					print_r($party_leader_id);
+					print_r($notes);
+					print_r(strlen($notes));
+					print_r($user_id);
+					print_r($rows);
+					apologize("Update failed.  Please call support.");
+				}
+				else 
+				{
+					render("../view/party_update_form.php", ["title" => "Update Party", "form_id" => "$rec_id", "message" => "Update was successful."]);        
+        		}
+    }
+    else
+    {
+    	$id = null;
+    	if (!empty($_GET['id'])) {
+      	$id = htmlspecialchars(strip_tags($_GET['id']));
+      }
+		$_SESSION["rec_id"] = $id;
+      render("../view/party_update_form.php", ["title" => "Update a Party",
+            "form_id" => "$id", "message" => ""]);
+    }
+
+?>

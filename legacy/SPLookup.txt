@@ -1,0 +1,510 @@
+Cottage	Account	Phone_No	Phone_Name	Elec_unit	Query
+1	R001	205	1 Lampier Grist	1	 
+2	R002	206	2 Moorcroft	2	
+3	R003	207	 #3 WILMOT	3	
+4	R004	208	 #4 MOGILNICKA/SLATER	4	
+5	R005	209	5 Glisson	5	
+6	R006	210	 #6 COSTER	6	
+7	R007	211	7 Gericke	7	
+8	R008	275	8 White	8	
+9	R009	213	 #9 MORRIS	9	
+10	Calculate	214	10 Vacant	10	
+11	R011	215	 #11 BERESFORD	11	
+12	R012	216	 12 Hammond	12	
+13	R013	217	 #13 RIMMER	13	
+14	R014	218	14 Bawden	14	
+15	R015	219	 #15 ADDERLEY	15	
+16	R016	220	 #16 ROBERTS	16	
+17	R017	221	17 O'Reilly	17	
+18	R018	222	 #18 WALLACE	18	
+19	R019	223	 #19 AAB	19	
+20	R020	224	 #20 GEORGE	20	
+21	R021	225	 #21 MANN	21	
+22	R022	226	 #22 COLLETT	22	
+23	R023	227	23 Tarr	23	
+24	R024	228	 #24 CHASTON	24	
+25	R025	229	 #25 LINFORTH	25	
+26	R026	230	 #26 MACPHERSON	26	
+27	R027	268	27 Van Der Walt	27	
+28	R028	232	 #28 WATSON	28	
+29	R029	233	 #29 LANGLEY	29	
+30	R030	234	 #30 SPARKS	30	
+31	R031	235	 #31 RANDALL	31	
+32	R032	236	 #32 FINLAY	32	
+33	R033	237	 #33 ALDIS	33	
+34	R034	238	 #34 VDMERWE, Denise	34	
+35	R035	239	35 Vacant	35	
+36	R036	240	 #36 DUGMORE	36	
+37	R037	241	37 Vacant	37	
+38	R038	242	38 Fricker	38	
+39	R039	243	 #39 WEBBER, Una	39	
+40	R040	530	 #40 OLIVER	40	
+41	R041	245	 #41 WEST	41	
+42	R042			42	Name?
+43	R043	247	 #43 TAUTE	43	
+44	R044			44	Name?
+45	R045	249	 #45 TURNER	45	
+46	R046	250	 #46 SCARTERFIELD	46	
+49	R049	309	 #49 MANSFIELD	49	
+51	R051			51	Name?
+52	R052	506	52 Day	52	
+53	R053	338	 #53 PAINTER	53	
+54	R054	258	 #54 FOWLER	54	
+55	R055	259	 #55 DANILATOS	55	
+56	R056			56	Name?
+57	R057			57	Name?
+58	R058	263	 #58 VAN ZYL	58	
+59	R059	302	 #59 POHL	59	
+60	R060	264	 #60 DE JAEGER	60	
+61	R061	255	 #61 WIBLIN	61	
+62	R062	271	 #62 DOYLE	62	
+63	R063	272	 #63 LONG	63	
+64	R064	273	 #64 HOWES	64	
+65	R065	274	 #65 BARNES	65	
+66	R066	276	 #66 CLARK	66	
+67	R067	277	 #67 BEAUMONT, Peter	67	
+68	R068	278	 #68 CLOHESSY	68	
+69	R069	279	 #69 ROOS	69	
+70	R070	252	 #70 BURNSIDE	70	
+71	R071	253	 #71 TRUSCOTT, Martie	71	
+72	R072	231	 #72 LOUW	72	
+73	R073	254	 #73 BOTHOMLEY	73	
+74	R074	283	 #74 TAYLOR	74	
+75	R075	269	 #75 BORDER	75	
+76	R076	270	 #76 NEIGH VAN LIER	76	
+77	R077	281	 #77 LANSDELL	77	
+78	R078	320	 #78 LLOYD	78	
+79	R079	319	 #79 PAPENHUIJZEN	79	
+80	R080	317	 #80 PIQUET	80	
+81	R081	316	 #81 SANSOM	81	
+82	R082	298	82 Aylward	82	
+83	R083	299	 #83 ANDREWS	83	
+84	R084	288	 #84 BODILL, Meryl	84	
+85	R085	296	 #85 BARTLETT	85	
+86	R086	301	 #86 BRUTON	86	
+87	R087	292	 #87 FORSTER	87	
+88	R088	318	 #88 BREDENKAMP	88	
+89	R089	321	 #89 STAVRIDIS	89	
+90	R090	324	 #90 VAN HASSELT	90	
+91	R091	323	 #91 NEWLANDS	91	
+92	R092	327	 #92 ARMSTRONG	92	
+93	R093	328	93 Stuart	93	
+94	R094	325	 #94 PHILLIPS	94	
+95	R095	326	 #95 SCHEEPERS	95	
+96	R096	336	 #96 SHEARD	96	
+97	R097	337	 #97 TILLY	97	
+98	R098	335	98 Meyer, G	98	
+99	R099	334	 #99 COWIE	99	
+100	R100	290	100 Clayton	100	
+101	R101	291	 #101 NEAME	101	
+102	R102	329	 #102 THOMPSON	102	
+103	R103	330	103 Smethurst	103	
+104	R104	339	 #104 FOX	104	
+104A	R104A	000	104A	104A	
+105	R105	340	 #105 COGHLAN	105	
+106	R106	342	 #106 RICHARDSON	106	
+107	R107	341	 #107 COLLETT, T & W	107	
+108	R108	344	108 Morgan	108	
+109	R109	343	 #109 PROBERT/SURTEES	109	
+110	R110	355	 #110 WESLEY/WILLIAMS	110	
+111	R111	360	111 Alston	111	
+112	R112	359	 #112 WERNER, Flo	112	
+113	R113	358	 #113 CLARKE, S&J	113	
+114	R114	345	 #114 BLACKBEARD	114	
+115	R115	346	115 Laubscher	115	
+116	R116	313	 #116 BUISSON-STREET	116	
+117	R117	287	 #117 ACHESON	117	
+118	R118	365	 #118 HILTON-BARBER	118	
+119	R119	364	 #119 BARNARD	119	
+120	R120	363	 #120 BRADFIELD, M	120	
+121	R121	362	 #121 HENDRY	121	
+122	R122	366	 #122 PHILLIPS	122	
+123	R123	367	 #123 BUTCHER	123	
+124	R124	368	 #124 SOINE	124	
+125	R125	369	 #125 WILLIAMS	125	
+126	R126	373	 #126 CHUNNETT	126	
+127	R127	374	 #127 MOORE	127	
+129	R129			129	Name?
+130	R130	376	 #130 VDMERWE, Rina	130	
+131	R131	377	 #131 DYER	131	
+132	R132	378	 #132 KREIN	132	
+133	R133	379	 #133 SURMON	133	
+134	R134	380	134 Konig	134	
+135	R135	381	 #135 ARCHER	135	
+136	R136	382	 #136 SUMMERS	136	
+137	R137	383	 #137 BENTLEY	137	
+138	R138	384	 #138 	138	
+139	R139	385	 #139 KOLESKY	139	
+140	R140	386	 #140 WIGHT	140	
+141	R141	387	 #141 SWART	141	
+142	R142			142	Name?
+143	R143	389	 #143 WILSON	143	
+144	R144	390	 #144 DENIS	144	
+145	R145	391	 #145 MOORE	145	
+146	Calculate	392	146 Vacant	146	
+147	R147	393	 #147 LOWRY	147	
+148	R148	394	 #148 DE FLAMINGH	148	
+149	R149	395	 #149 SMIT	149	
+150	R150	396	150 Gie	150	
+151	R151	397	 #151 MEYER, Nancy	151	
+152	R152	398	 #152 MCLEOD	152	
+153	R153	399	 #153 GOETZE	153	
+154	R154	400	 #154 FOONK	154	
+155	R155	401	 #155 STAS	155	
+156	R156	402	 #156 CLEUGH	156	
+157	R157	403	 #157 SWANEPOEL, D	157	
+158	R158	404	 #158 SPIEKER	158	
+159	R159	405	159 Smit, H	159	Which account no is right?
+159	RS159			159	Which account no is right?
+160	R160	406	 #160 BOYCE	160	
+161	R161	407	 #161 BALL	161	
+162	R162	408	 #162 SKIPPER	162	
+163	R163	409	 #163 SMITH, R&J	163	
+164	R164	410	 #164 VDMERWE, G&J	164	
+165	R165	411	 #165 FOWLER	165	
+166	R166	412	166 Spearman	166	
+167	R167	413	 #167 FOSTER	167	
+168	R168	414	 #168 REIJMAN	168	
+169	R169	415	 #169 VERSFELD	169	
+170	R170	416	 #170 SPARKS, R&M	170	
+171	R171	417	 #171 CHARTER	171	
+172	R172	418	 #172 MILLN	172	
+173	R173	419	173 Wilkins	173	
+174	R174	420	 #174 GOLDING	174	
+175	R175	421	 #175 HART	175	
+176	R176	422	 #176 QUIN	176	
+177	R177	423	 #177 PURDON	177	
+178	R178	424	 #178 COOPER	178	
+179	R179	425	 #179 SCHORN	179	
+180	R180	426	 #180 HOBBS	180	
+181	R181	427	 #181 KELLY	181	
+182	R182	428	 #182 TIPPER	182	
+183	R183	429	 #183 SPAVINS	183	
+184	R184	430	 #184 WRIGHT	184	
+185	R185	431	185 Marshall/Forward	185	
+186	R186	432	 #186 STEENKAMP	186	
+187	R187	433	 #187 JOY	187	
+188	R188	434	 #188 NELSON	188	
+189	R189	435	 #189 LEAR	189	
+190	R190	436	190 Stylianou	190	
+191	R191	437	 #191 WOOD	191	
+192	R192	438	 #192 WHEELWRIGHT	192	
+193	R193	439	 #193 BAILES	193	
+194	R194	440	 #194 MCGHIE	194	
+195	R195	441	 #195 CROTHALL	195	
+196	R196	442	196 Schoning	196	
+197	R197	443	 #197 DUGGAN	197	
+198	R198	444	 #198 MITCHELL	198	
+199	R199	445	 #199 SANDILANDS	199	
+200	R200	448	 #200 FORD	200	
+201	R201	449	 #201 COLLETT, Trevor	201	
+202	R202	450	 #202 GIFFORD	202	
+203	R203	451	 #203 COETZER	203	
+204	R204	452	204 Smith	204	
+205	R205	453	 #205 HOSECK	205	
+206	R206	454	 #206 BOYD	206	
+207	R207	455	 #207 GALLAGHER	207	
+208	R208	456	 #208 JONES	208	
+209	R209	457	 #209 REYNOLDS	209	
+210	R210	458	 #210 TENNANT	210	
+211	R211	459	 #211 VAN DER POEL	211	Subtract Walkers Loo and bill to Admin
+212	R212	460	 #212 BROWN	212	
+213	R213	461	 #213 CANNY	213	
+214	R214	473	 #214 HILL, Kathleen	214	
+215	R215	484	 #215 BASSON	215	
+216	R216	464	 #216 HARMAN	216	
+217	R217	465	 #217 BEAUMONT/GADD	217	
+218	R218	513	 #218 VORSTER	218	
+219	R219	467	 #219 WORMALD	219	
+220	R220	468	 #220 GRADWELL	220	
+221	R221	469	 #221 GILL	221	
+222	R222	470	222 Judge	222	
+223	R223	471	 #223 ROLL	223	
+224	R224	472	 #224 NAUDE	224	
+225	R225	462	 #225 KEMP	225	
+226	R226	474	 #226 DALGETYBUSHELL	226	
+227	R227	475	 #227 TRUSCOTT, J&M	227	
+228	R228	476	 #228 VROOM	228	
+229	R229	477	 #229 BRAMWELL	229	
+230	R230	478	 #230 THACKWRAY	230	
+231	R231	481	 #231 HENSHALL	231	
+232	R232	482	 #232 CHANDLER	232	
+233	R233	463	233 Feather	233	
+234	R234	483	 #234 LEONARD	234	
+235	R235	485	 #235 CLOUGH	235	
+236	R236	486	Unknown	236	Name?
+237	R237	487	 #237 BURGESS	237	
+238	R238	488	 #238 BRANS	238	
+239	R239	489	 #239 THATCHER	239	
+240	R240	490	 #240 NEL	240	
+241	R241	491	241 Kietzmann	241	
+242	R242	492	 #242 MCPHEE	242	
+243	R243	493	 #243 LAPHAM	243	
+244	R244	494	 #244 VDMERWE, M&R	244	
+245	R245	496	 #245 ARMSTRONG	245	
+246	R246	497	 #246 RODRIGUES	246	
+247	R247	498	247 Brown	247	
+248	R248	499	 #248 PELLEW	248	
+249	R249	500	 #249 McCARTHY	249	
+	None	523	 ELSPETH - WELFARE	???	Does Elspeth occupy a cottage?
+128 pump	Calculate		Allocate portion to 128 A to E	128 pump	Allocate portion to 128 A to E
+128a 1	R128A	515	 #128a ATKINSON, R&J	128a 1	Is Atkinson in both A and B?
+128b 2	R128B	519	128b Atkinson	128b 2	Is Atkinson in both A and B?
+128c 3	R128C	388	 #128c NORMAN	128c 3	
+128d 4	R128DE	516	128de Vacant	128d 4	
+128e 5	R128DE		128de Vacant	128e 5	
+17 Pump	R017	None	17 Pump	17 Pump	Charge to R017
+200a	R200A			200a	Name?
+200b	R200B			200b	Name?
+200c	R200C			200c	Name?
+43 Pump	Calculate		Split 41, 42, 43	43 Pump	
+44a	R044A			44a	Name?
+44b	R044B	518	44B Botha	44b	
+45a	R045A			45a	Name?
+45b	R045B			45b	Name?
+45c	R045C			45c	Name?
+45d	R045D			45d	Name?
+47b	R047B	311	47B Haig	47b	
+51a	Calculate	312	 #51a RUSSELL	51a	
+56a Flat	R056A			56a Flat	Name?
+57a Flat	None			57a Flat	Name?
+58a Flat	R058A			58a Flat	Name?
+Admin A	None		Admin A	Admin A	
+Admin B	None		Admin B	Admin B	
+Admin C	None		Admin C	Admin C	
+Alfred Gate	None		Alfred Gate	Alfred Gate	
+B02	RB02	257	 #B2 IMPEY	B2	No elec?
+C05	RC05	350	C05 Vacant	C05	No elec?
+C06	RC06	351	 #C6 VERWEY	C06	No elec?
+Care Centre	None	201	 CARE CENTRE	Care Centre	
+Glens Den	RGLEN	495	Glens Den	Club	
+D04	RD04	314	D04 Vacant	D04	No elec?
+D06	RD06	322	 #D6 WERNER	D06	No elec?
+D08	RD08	307	D08 Walker	D08	No elec?
+Don Powis Hall	None		Don Powis Hall	Don Powis	Phone?
+E01	RE01	357	 #E1 WESSON	E01	No elec?
+E03	RE03	293	 #E3&E4 SIMPKINS	E03	No elec?
+E05	RE05	348	E05 Wilson	E05	No elec?
+E08	RE08	300	 #E8 DULLABH	E08	No elec?
+E12	RE12	347	 #E12 WISEMAN	E12	No elec?
+E13	RE13A	284	E13 West	E13	No elec?
+Workshop 9E	R195		195 Crothall	Ex Dentist	
+F03	RF03	308	 #F3 SWANEPOEL	F03	No elec?
+F5	RF05	282	F5 Smidt	F5	No elec?
+G1	RG01	304	G01 Smith, K	G1	
+G2	RG02	286	 #G2 WINTER	G2	
+G3	RG03	289	 #G3 WORRALL	G3	
+G4	RG04	297	 #G4 MEIRING	G4	
+Garage 1	R091		 91 NEWLANDS	Garage 1	
+Garage 10	R194		 194 MCGHIE	Garage 10	
+Garage 11	R145		 145 MOORE	Garage 11	
+Garage 12	R221		 221 GILL	Garage 12	
+Garage 13	None		Trust Shop	Garage 13	Not TRUST?
+Garage 14	None		Justin - Garage doors	Garage 14	
+Garage 2	None		Mrs Versfeld/Flowers	Garage 2	
+Garage 3	R225		 225 KEMP	Garage 3	
+Garage 4	R163		 163 SMITH, R&J	Garage 4	
+Garage 5	R212		 212 BROWN	Garage 5	
+Garage 6	R168		 168 REIJMAN	Garage 6	
+Garage 7	None		Gardens	Garage 7	
+Garage 8	None		Gardens	Garage 8	
+Garage 9	None		Gardens	Garage 9	
+H1	Calculate	508	 #H1	H1	
+H2	RH02	509	H2 Vacant	H2	
+H3	Calculate	510	H3 Clinic	H3	
+H4	RH04	511	 #H4 BARCLAY	H4	
+	None		Horton Gate	Horton Gate	
+Laundry	None	371	 LAUNDRY	Laundry	
+Pool	None	501	Pool	Pool	
+	Calculate			Pump 1 & 2	Duplicated?
+	Calculate			Pump No.1	Duplicated?
+	Calculate			Pump No.2	Duplicated?
+	Calculate			Pump No.3	
+	Calculate			Pump No.4	
+	Calculate			Pump No.5	
+	Calculate			Pump No.7	
+	None		Refuse	Refuse	
+HIBISCUS RM	None	333	 KITCHEN - EPC	Restaurant	
+	None		KGS	SERVEST	
+	Calculate			Spare	What is this?
+	None		Trading Post	Trading Post	
+TRUST	TRUS01	479	 TRUST SHOP	TRUST	No elec? In Horton Road Gate?
+Village Inn A	Calculate		Divide: R047b, R050b, R050c	Village Inn A	Seems strange?
+Village Inn B	Calculate		Divide: R047b, R050b, R050c	Village Inn B	Seems strange?
+Village Inn C	Calculate		Divide: R047b, R050b, R050c	Village Inn C	Seems strange?
+	None		Mr Dennis	W/S 1	
+	None		AP Loyd	W/S 2	
+	None		Edmund Tarentaal	W/S 3	
+	R229		 BRAMWELL	W/S 4	
+	None		Gardens	W/S 5	
+	None		Gardens	W/S 6	
+	None		Care Centre	W/S 7	
+	None		SP Electrical store	W/S 8	
+	Calculate		Unoccupied	W/S 9	Store for garage doors?
+	Calculate		Walkers Loo - CR R211	Walkers Loo	Credit R211
+	Calculate	466	Unknown		Unused extension numbers
+	Calculate	203	Unknown		Unused extension numbers
+	Calculate	204	Unknown		Unused extension numbers
+	Calculate	246	Unknown		Unused extension numbers
+	Calculate	248	Unknown		Unused extension numbers
+	Calculate	251	Unknown		Unused extension numbers
+	Calculate	256	Unknown		Unused extension numbers
+	Calculate	266	Unknown		Unused extension numbers
+	Calculate	280	Unknown		Unused extension numbers
+	Calculate	285	Unknown		Unused extension numbers
+	Calculate	295	Unknown		Unused extension numbers
+	Calculate	303	Unknown		Unused extension numbers
+	Calculate	305	Unknown		Unused extension numbers
+	Calculate	310	Unknown		Unused extension numbers
+	Calculate	315	Unknown		Unused extension numbers
+	Calculate	331	Unknown		Unused extension numbers
+	Calculate	332	Unknown		Unused extension numbers
+	Calculate	349	Unknown		Unused extension numbers
+	Calculate	352	Unknown		Unused extension numbers
+	Calculate	354	Unknown		Unused extension numbers
+	Calculate	356	Unknown		Unused extension numbers
+	Calculate	361	Unknown		Unused extension numbers
+	Calculate	370	Unknown		Unused extension numbers
+	Calculate	372	Unknown		Unused extension numbers
+	Calculate	447	Unknown		Unused extension numbers
+	Calculate	480	Unknown		Unused extension numbers
+	Calculate	503	Unknown		Unused extension numbers
+	Calculate	504	Unknown		Unused extension numbers
+	Calculate	505	 LIBRARY		Part of Don Powis Hall?
+	Calculate	506	Unknown		Unused extension numbers
+	Calculate	512	Unknown		Unused extension numbers
+	Calculate	514	Unknown		Unused extension numbers
+	Calculate	517	Unknown		Unused extension numbers
+	Calculate	520	Unknown		Unused extension numbers
+	Calculate	521	Unknown		Unused extension numbers
+	Calculate	522	Unknown		Unused extension numbers
+	Calculate	527	Unknown		Unused extension numbers
+	Calculate	528	Unknown		Unused extension numbers
+	Calculate	531	Unknown		Unused extension numbers
+	Calculate	532	Unknown		Unused extension numbers
+	Calculate	533	Unknown		Unused extension numbers
+	Calculate	534	Unknown		Unused extension numbers
+	Calculate	535	Unknown		Unused extension numbers
+	Calculate	536	Unknown		Unused extension numbers
+	Calculate	537	Unknown		Unused extension numbers
+	Calculate	538	Unknown		Unused extension numbers
+	Calculate	543	Unknown		Unused extension numbers
+	Calculate	544	Unknown		Unused extension numbers
+	Calculate	545	Unknown		Unused extension numbers
+	Calculate	546	Unknown		Unused extension numbers
+	Calculate	547	Unknown		Unused extension numbers
+	Calculate	548	Unknown		Unused extension numbers
+	Calculate	549	Unknown		Unused extension numbers
+	Calculate	550	Unknown		Unused extension numbers
+	Calculate	551	Unknown		Unused extension numbers
+	Calculate	552	Unknown		Unused extension numbers
+	Calculate	553	Unknown		Unused extension numbers
+	Calculate	555	Unknown		Unused extension numbers
+	Calculate	556	Unknown		Unused extension numbers
+	Calculate	557	Unknown		Unused extension numbers
+	Calculate	558	Unknown		Unused extension numbers
+	Calculate	559	Unknown		Unused extension numbers
+	Calculate	560	Unknown		Unused extension numbers
+	Calculate	561	Unknown		Unused extension numbers
+	Calculate	562	Unknown		Unused extension numbers
+	Calculate	563	Unknown		Unused extension numbers
+	Calculate	564	Unknown		Unused extension numbers
+	Calculate	565	Unknown		Unused extension numbers
+	Calculate	566	Unknown		Unused extension numbers
+	Calculate	567	Unknown		Unused extension numbers
+	Calculate	568	Unknown		Unused extension numbers
+	Calculate	569	Unknown		Unused extension numbers
+	Calculate	570	Unknown		Unused extension numbers
+	Calculate	571	Unknown		Unused extension numbers
+	Calculate	572	Unknown		Unused extension numbers
+	Calculate	573	Unknown		Unused extension numbers
+	Calculate	574	Unknown		Unused extension numbers
+	Calculate	575	Unknown		Unused extension numbers
+	Calculate	576	Unknown		Unused extension numbers
+	Calculate	577	Unknown		Unused extension numbers
+	Calculate	578	Unknown		Unused extension numbers
+	Calculate	579	Unknown		Unused extension numbers
+	Calculate	580	Unknown		Unused extension numbers
+	Calculate	581	Unknown		Unused extension numbers
+	Calculate	582	Unknown		Unused extension numbers
+	Calculate	583	Unknown		Unused extension numbers
+	Calculate	584	Unknown		Unused extension numbers
+	Calculate	585	Unknown		Unused extension numbers
+	Calculate	586	Unknown		Unused extension numbers
+	Calculate	587	Unknown		Unused extension numbers
+	Calculate	588	Unknown		Unused extension numbers
+	Calculate	589	Unknown		Unused extension numbers
+	Calculate	590	Unknown		Unused extension numbers
+	Calculate	591	Unknown		Unused extension numbers
+	Calculate	592	Unknown		Unused extension numbers
+	Calculate	593	Unknown		Unused extension numbers
+	Calculate	594	Unknown		Unused extension numbers
+	Calculate	595	Unknown		Unused extension numbers
+	Calculate	596	Unknown		Unused extension numbers
+	Calculate	597	Unknown		Unused extension numbers
+	Calculate	598	Unknown		Unused extension numbers
+	Calculate	599	Unknown		Unused extension numbers
+	Calculate	600	Unknown		Unused extension numbers
+	Calculate	601	Unknown		Unused extension numbers
+Village Inn C	Calculate	262	 #50c COULTER		
+CARE CENTRE	None	212	 NAYDEEN SWARTZ		Where?
+	None	1	 Ext_1		Internal switchboard numbers
+	None	2	 Ext_2		Internal switchboard numbers
+	None	3	Ext_3		Internal switchboard numbers
+	None	4	Ext_4		Internal switchboard numbers
+	None	5	 Ext_5		Internal switchboard numbers
+	None	6	Ext 6		Internal switchboard numbers
+	None	7	Ext 7		Internal switchboard numbers
+	None	13	Ext 13		Internal switchboard numbers
+	None	12	Ext 12		Internal switchboard numbers
+	None	14	Ext 14		Internal switchboard numbers
+	None	16	Ext 16		Internal switchboard numbers
+	None	17	 Ext_17		Internal switchboard numbers
+	None	18	 Ext_18		Internal switchboard numbers
+	None	19	Ext 19		Internal switchboard numbers
+	None	20	 Ext_20		Internal switchboard numbers
+	None	21	Ext 21		Internal switchboard numbers
+	None	22	 Ext_22		Internal switchboard numbers
+	None	25	Ext 25		Internal switchboard numbers
+	None	27	Ext 27		Internal switchboard numbers
+	None	28	Ext 28		Internal switchboard numbers
+	None	200	 SWITCHBOARD - ADMIN		
+FACILITIES	None	265	 MAINTENANCE, Johan		Part of Horton Gate?
+PABX FACILITIES	None	294	 Ext_294		What is this?
+	None	306	 #D3a/b SICKBAY		No elec?
+	None	375	 CARE CENTRE - SUSAN		
+Horton Road Gate	None	446	 SECURITY GATE HOUSE		
+	None	502	 IRENE MARAIS		
+	None	507	 CARE CENTRE EMERGENC		
+	None	524	 VILLAGE CLINIC		
+	None	525	 TRADING POST		
+	None	526	 HIBISCUS ROOM		
+	None	529	 CARE CENTRE DUTY RM		
+	None	539	 JUDY - GM		
+	None	540	 SUE		
+	None	541	 KITTIE		
+	None	542	 BUKIWE		
+	None	554	 CARE CENTRE OTHER		
+	None	602	 NORAH		
+	R050B		Unknown		Name?  Where?
+	R051A		Unknown		Name?  Where?
+	RB03	260	 #B3 SUTTON		
+	RB05				???
+	RC01				???
+	RC02				???
+	RC03	353	 #C3 WIENAND		
+	RC04				???
+	RD02		Hopper		
+	RD04				???
+	RD08				???
+	RE02				???
+	RE05				???
+	RE06				???
+	RE13A				???
+	RE13B				???
+	RF02				???
+	RF04A	202	 #F4 BELLINGAN		
+	RF05				???
+	RF07				???
+	TRUS01	261	 TRUST COTTAGE		Which one?
+	TRUS01	267	TRUST COTTAGE		Which one?

@@ -1,0 +1,39 @@
+<h2>Record a new Occupations</h2>
+
+<form action="../ctl/occupation_create.php" method="post">
+    <table class='table table-hover table-responsive table-bordered'>
+        <tr>
+            <td>Name</td>
+            <td><input type='text' name='name' class='form-control'></td>
+        </tr>
+	     <tr>
+				<td>Occupation</td>
+				<td>
+		  			<select name="occupation_id">
+		  				<?php
+		  					$rows = query("SELECT * FROM `occupation` order by occupation");
+		  					foreach ($rows as $row) {
+		  						if ($_SESSION["occupation_select"] == $row['id'])
+		  						{$selected = " selected";}
+		  						else {$selected = "";}
+		    					echo "<option value=" . $row['id'] . $selected . ">" . $row['occupation'] . "</option>";
+		    				}
+		  				?>
+		  			</select>
+				</td>
+	     </tr>
+        <tr>
+            <td>Notes on this occupation</td>
+            <td><textarea name='notes' class='form-control'></textarea></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type='submit' value='Save' class='btn btn-primary' />
+                <a href='../ctl/occupation.php' class='btn btn-primary'>Back to Occupationss</a>
+            </td>
+        </tr>
+    </table>
+</form>
+
+

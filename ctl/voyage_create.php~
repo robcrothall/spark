@@ -1,0 +1,49 @@
+<?php
+    require("../conf/config.php"); 
+	 $_SESSION["module"] = $_SERVER["PHP_SELF"];
+    if ($_SERVER["REQUEST_METHOD"] == "POST")
+    {
+		// Validate fields
+		$error = false;
+		$message = "";
+		$voyage_date = "";
+		$origin = "";
+		$dest = "";
+		$notes = "";
+		if (empty($_POST["voyage_date"])) {$message .= "You must provide the date of the start of the voyage.  "; $error = true;}
+		else {$voyage_date = substr(htmlspecialchars(strip_tags($_POST['voyage_date'])),0,50);}
+		$ship_id = substr(htmlspecialchars(strip_tags($_POST["ship_id"])),0,20);
+		$origin = substr(htmlspecialchars(strip_tags($_POST["origin"])),0,20);
+		$destination = substr(htmlspecialchars(strip_tags($_POST["destination"])),0,20);
+		if (empty($_POST["notes"])) {$notes = ""; $message = "No notes on this voyage?  "; }
+		else {$notes=substr(htmlspecialchars(strip_tags($_POST['notes'])),0,65534);}
+
+		// Check for a duplicate voyage
+		//$rows = query("select count(*) rowCount from voyage where voyage=?", $voyage);
+		//$row = $rows[0];
+		//if($row["rowCount"] > 0) {$message .= "This voyage already exists in our records."; $error = true;}
+		// If no errors have been detected, try to insert the row after noting some warnings
+		if($error == false) 
+		{
+			$ship_id = trim($ship_id);
+			$voyage_date = trim($voyage_date);
+			$origin = trim($origin);
+			$destination = trim($destination);
+			$notes = trim($notes);
+			$rowCount = query("insert into voyage (voyage_date, ship_id, origin, destination, notes, user_id, changed) values (?,?,?,?,?,?,CURRENT_TIMESTAMP())",
+								$voyage_date, $ship_id, $origin, $destination, $notes, $_SESSION["id"]);
+			if(!$rowCount == false) 
+			{
+				$message .= "Record inserted successfully.";
+			}
+			else {$message .= "Failed to add the record - please call support!";}
+		}
+		
+      render("../view/voyage_form.php", ["title" => "List of Voyages", "message" => "$message"]);
+    }
+    else
+    {
+      render("../view/voyage_create_form.php", ["title" => "Record Details of a new Voyage"]);
+    }
+
+?>
