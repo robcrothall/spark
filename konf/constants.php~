@@ -23,5 +23,11 @@
     
     // the number of search days to give to a new user
     define("INITIAL_DAYS", "5");
+    
+    // the Client name
+    define("CLIENT_NAME", "Kowie Museum");
+    
+    // the system name
+    define("SYSTEM_NAME", "Eastern Cape Social History");
 
 ?>

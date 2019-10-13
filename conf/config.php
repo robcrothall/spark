@@ -11,7 +11,7 @@
     error_reporting(E_ALL);
 
     // requirements
-    $WEBSITE = "/history/";
+    $WEBSITE = "/spark/";
     require_once("../conf/constants.php");
     require_once("../conf/functions.php");
 
